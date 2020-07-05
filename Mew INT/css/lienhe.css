@@ -1,0 +1,84 @@
+*{margin: 0; padding: 0;}
+
+.khoitt {
+    margin-bottom: 29px!important;
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #FF7200;
+}
+
+p.cd {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h3.cs {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+}
+span.do {
+    color: #ff0000;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+h2.tieude {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-weight: 700;
+    margin-bottom: 35px;
+} 
+
+button.btn.btn-primary.nut {
+    border-radius: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px #ddd solid;
+    background: #fff;
+    padding: 5px 12px;
+    transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s, background-position 300ms ease-in-out 0s;
+    color: black;
+}
+
+button.btn.btn-primary.nut:hover {
+    border: 1px solid #4d68b3;
+    background: #4d68b3;
+    color: #FFF;
+}
+
+label {
+    position: relative;
+    z-index: 0;
+    font-weight: normal;
+    color: #333;
+    display: inline;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    /* font-weight: 700; */
+}
